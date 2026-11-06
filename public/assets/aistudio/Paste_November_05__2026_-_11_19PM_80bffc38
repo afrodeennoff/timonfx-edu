@@ -1,0 +1,1040 @@
+MASTER BUILD SPECIFICATION
+
+Build a Complete Trading Education Platform Inside My Existing Website
+
+ROLE
+
+Act as a senior product architect, institutional-level trading educator, curriculum designer, UI/UX designer, technical writer, and full-stack software engineer.
+
+Your assignment is to design and implement a complete, premium Trading Education Hub inside my existing website.
+
+Reference:
+https://www.theinnercircletraders.com/
+
+I want you to study the reference website’s educational architecture, content organization, curriculum, glossary, individual article pages, diagrams, learning tools, and navigation.
+
+Use it as a product and UX reference, not as a source to copy.
+
+The objective is to create an original trading knowledge platform that is equally comprehensive in its educational structure, with its own visual identity, terminology explanations, content, and learning experience.
+
+Do not just build an Education landing page. Build the entire educational ecosystem.
+
+⸻
+
+PART 1: UNDERSTAND THE EXISTING PROJECT
+
+Before implementation, inspect the entire existing project.
+
+Understand:
+
+* Current framework and architecture.
+* Existing application routes.
+* Component library.
+* Typography and color system.
+* Navigation and footer.
+* Authentication, if available.
+* Database and content management structure.
+* Existing responsive design.
+* Existing charting or visualization libraries.
+* SEO implementation.
+
+Integration rules
+
+1. Preserve the existing website and its identity.
+2. Do not redesign unrelated pages.
+3. Do not create a second application.
+4. Reuse existing components wherever appropriate.
+5. Follow existing naming conventions and architecture.
+6. Avoid unnecessary dependencies.
+7. Ensure there are no route conflicts.
+8. Make the Education Hub feel like a native part of the existing website.
+
+After inspection, make the necessary architectural decisions independently and proceed with implementation.
+
+⸻
+
+PART 2: EDUCATION INFORMATION ARCHITECTURE
+
+Create a complete Education ecosystem with the following pages.
+
+Main routes
+
+Route	Purpose
+/education	Main education dashboard
+/education/curriculum	Complete learning curriculum
+/education/library	All educational articles
+/education/category/[slug]	Category-specific articles
+/education/lesson/[slug]	Individual educational lessons
+/education/glossary	Searchable trading dictionary
+/education/tools	Educational tools
+/education/progress	Learning progress tracker
+/education/practice	Knowledge checks and practice exercises
+
+Use the existing routing conventions if they differ.
+
+Navigation
+
+The Education section should have its own organized navigation.
+
+Include:
+
+* Overview
+* Learning Path
+* Curriculum
+* Knowledge Library
+* Trading Concepts
+* Glossary
+* Tools
+* Practice
+
+On desktop, use a clean sidebar or organized navigation system.
+
+On mobile, use a compact, accessible navigation system.
+
+⸻
+
+PART 3: EDUCATION HOMEPAGE
+
+Create an institutional-quality Education landing page.
+
+Section 1: Hero
+
+Headline:
+
+Understand Price Action. Master Market Structure. Build Your Framework.
+
+Supporting text:
+
+A structured knowledge platform covering market fundamentals, price action, liquidity, market structure, trading frameworks, and disciplined decision-making.
+
+Buttons:
+
+* Start Learning
+* Explore All Concepts
+* View Curriculum
+
+Include an original market chart illustration showing a hypothetical price sequence with annotated concepts.
+
+Avoid generic stock photography.
+
+Section 2: Learning Overview
+
+Display real platform statistics:
+
+* Total published lessons.
+* Number of learning modules.
+* Glossary terminology count.
+* Available educational tools.
+* Learning paths completed by the user, where applicable.
+
+All statistics must be calculated from actual content or stored data.
+
+Never fabricate user statistics.
+
+Section 3: Start Your Learning Journey
+
+Provide three learning levels:
+
+Beginner
+Understand market fundamentals, charts, candlesticks, and basic market structure.
+
+Intermediate
+Explore liquidity, price imbalances, PD arrays, and market context.
+
+Advanced
+Study complex price action frameworks, multi-timeframe analysis, research methodology, and performance evaluation.
+
+Each level should link to the correct curriculum section.
+
+Section 4: Featured Concepts
+
+Display important topics using premium educational cards.
+
+Examples:
+
+* Market Structure
+* Liquidity
+* Fair Value Gap
+* Order Blocks
+* Breaker Blocks
+* Displacement
+* Premium and Discount
+* Power of Three
+* Candle Range Theory
+* SMT Divergence
+* Daily Bias
+* Trading Psychology
+
+Every card must link to its corresponding complete lesson.
+
+Section 5: Structured Learning Path
+
+Show the entire learning journey with module numbers, descriptions, completion status, and lesson counts.
+
+Section 6: Featured Lessons
+
+Display curated educational content with:
+
+* Lesson title
+* Description
+* Category
+* Difficulty
+* Estimated reading time
+* Original illustration
+* Read lesson action
+
+Section 7: Knowledge Tools
+
+Show the available glossary, concept explorer, learning tracker, flashcards, and educational calculators.
+
+Section 8: FAQ
+
+Include meaningful questions about learning price action, terminology, methodology, and responsible financial education.
+
+Section 9: Final CTA
+
+Encourage users to explore the curriculum and continue learning.
+
+⸻
+
+PART 4: BUILD THE COMPLETE CURRICULUM
+
+Create a structured curriculum containing 12 educational modules.
+
+The content must follow a logical learning progression.
+
+Module 01: Market Foundations
+
+Teach:
+
+1. Introduction to financial markets.
+2. How financial markets function.
+3. Market participants.
+4. Understanding price and price discovery.
+5. Bid, ask, spread, and volatility.
+6. Understanding OHLC candles.
+7. Candlestick anatomy.
+8. Timeframes and chart reading.
+
+Module 02: Price Action Fundamentals
+
+Teach:
+
+1. What is price action?
+2. Swing highs and swing lows.
+3. Trending markets.
+4. Ranging markets.
+5. Impulsive and corrective movements.
+6. Reading price sequences.
+7. Support and resistance concepts.
+8. Basic price behavior.
+
+Module 03: Market Structure
+
+Teach:
+
+1. Market structure explained.
+2. Higher highs and higher lows.
+3. Lower highs and lower lows.
+4. Internal market structure.
+5. External market structure.
+6. Break of Structure (BOS).
+7. Change of Character (CHoCH).
+8. Market Structure Shift (MSS).
+9. Displacement.
+10. Structural continuation and reversal interpretations.
+
+Module 04: Liquidity Concepts
+
+Teach:
+
+1. What liquidity means in financial markets.
+2. Buy-side liquidity (BSL).
+3. Sell-side liquidity (SSL).
+4. Equal highs.
+5. Equal lows.
+6. Internal liquidity.
+7. External liquidity.
+8. Liquidity pools.
+9. Liquidity sweeps.
+10. Inducement.
+11. Previous day high and low.
+12. Previous week high and low.
+
+Module 05: PD Arrays and Price Imbalances
+
+Teach:
+
+1. What are PD Arrays?
+2. Fair Value Gap (FVG).
+3. Bullish FVG.
+4. Bearish FVG.
+5. Inverse Fair Value Gap (IFVG).
+6. Order Blocks.
+7. Bullish and bearish Order Blocks.
+8. Breaker Blocks.
+9. Mitigation Blocks.
+10. Rejection Blocks.
+11. Balanced Price Range (BPR).
+12. Premium and Discount.
+13. Equilibrium.
+14. Dealing Range.
+15. Optimal Trade Entry (OTE).
+16. PD Array relationships.
+
+Module 06: Time and Session Concepts
+
+Teach:
+
+1. Understanding trading sessions.
+2. Asian session.
+3. London session.
+4. New York session.
+5. Session highs and lows.
+6. Kill Zones as a framework concept.
+7. Session timing and daylight-saving changes.
+8. Macro time concepts.
+9. Time and price relationships.
+
+Module 07: ICT and SMC Frameworks
+
+Teach:
+
+1. Introduction to ICT terminology.
+2. Smart Money Concepts.
+3. Power of Three (AMD).
+4. Accumulation.
+5. Manipulation.
+6. Distribution.
+7. Judas Swing.
+8. Market Maker Models.
+9. Silver Bullet framework.
+10. SMT Divergence.
+11. Turtle Soup.
+12. ICT 2022 Model.
+
+Module 08: Candle Range Theory (CRT)
+
+Teach:
+
+1. Introduction to CRT.
+2. Reference candle.
+3. Candle range.
+4. Range expansion.
+5. Range manipulation.
+6. Seek and Destroy concepts.
+7. CRT terminology.
+8. CRT framework comparisons.
+
+Module 09: Multi-Timeframe Analysis
+
+Teach:
+
+1. Understanding top-down analysis.
+2. Higher-timeframe context.
+3. Lower-timeframe context.
+4. Daily market context.
+5. Weekly market context.
+6. Daily bias terminology.
+7. Draw on Liquidity.
+8. Directional narratives.
+9. Timeframe relationships.
+
+Module 10: Risk and Trading Mathematics
+
+Teach:
+
+1. Risk and reward terminology.
+2. Risk-to-reward mathematics.
+3. Expected value.
+4. Win rate and probability.
+5. Profit factor.
+6. Drawdown.
+7. Variance.
+8. Position sizing mathematics.
+9. Trading costs and slippage.
+10. Sample size and statistical significance.
+
+Keep this module educational. Do not provide personalized financial advice or recommendations to participate in leveraged trading.
+
+Module 11: Trading Psychology and Process
+
+Teach:
+
+1. Trading discipline.
+2. Emotional decision-making.
+3. Patience.
+4. Cognitive biases.
+5. Confirmation bias.
+6. Fear of missing out.
+7. Overconfidence.
+8. Revenge trading as a behavioral pattern.
+9. Decision-making processes.
+10. Maintaining a research journal.
+
+Module 12: Research and Performance Evaluation
+
+Teach:
+
+1. What is backtesting?
+2. Historical chart analysis.
+3. Forward-testing concepts.
+4. Hypothesis development.
+5. Building a research methodology.
+6. Recording observations.
+7. Evaluating statistical outcomes.
+8. Avoiding overfitting.
+9. Reviewing mistakes.
+10. Developing a repeatable analysis framework.
+
+Curriculum requirements
+
+* Every module must have a dedicated page.
+* Every lesson must have a dedicated URL.
+* Lessons must appear in the correct learning order.
+* Include module descriptions and prerequisites.
+* Clearly display difficulty and estimated reading time.
+* Provide previous and next lesson navigation.
+* Link related lessons.
+* Display learning progress.
+* Provide a final knowledge assessment for every module.
+
+Do not publish empty modules or unfinished lesson pages.
+
+⸻
+
+PART 5: THE INDIVIDUAL LESSON EXPERIENCE
+
+This is one of the most important parts of the entire project.
+
+Every concept must have its own comprehensive educational page.
+
+Example URL:
+
+/education/lesson/fair-value-gap
+
+Required lesson structure
+
+1. Lesson Header
+
+* Category
+* Concept name
+* Short definition
+* Difficulty level
+* Reading time
+* Lesson number
+* Breadcrumb navigation
+
+2. Introduction
+
+Explain what the concept is and why it is studied.
+
+3. Fundamental Explanation
+
+Break the concept down from first principles.
+
+Assume the reader has no prior knowledge.
+
+4. Visual Explanation
+
+Create an original annotated price chart.
+
+Use:
+
+* Candlesticks
+* Swing points
+* Labels
+* Price levels
+* Highlighted zones
+* Arrows
+* Explanatory annotations
+
+All illustrations must be original and relevant to the specific lesson.
+
+5. Concept Anatomy
+
+Explain the different components of the concept.
+
+6. Identification
+
+Explain the visual characteristics used to recognize the concept in historical or hypothetical charts.
+
+7. Context
+
+Explain how the concept relates to broader market structure and other terminology.
+
+8. Examples
+
+Include clearly labeled hypothetical bullish and bearish chart examples where relevant.
+
+9. Misconceptions
+
+Explain what the concept does not establish and common interpretation errors.
+
+10. Knowledge Check
+
+Add three to five multiple-choice questions.
+
+Provide instant explanations after answers.
+
+11. Frequently Asked Questions
+
+Include three to six relevant questions.
+
+12. Key Takeaways
+
+Provide a concise summary.
+
+13. Related Concepts
+
+Connect the lesson to relevant glossary terms and other articles.
+
+14. Continue Learning
+
+Include:
+
+* Previous lesson
+* Next lesson
+* Related module
+* Return to curriculum
+
+Make every lesson feel like a properly designed educational article, not a generic blog post.
+
+⸻
+
+PART 6: ORIGINAL CHART DIAGRAM SYSTEM
+
+Create a reusable educational chart illustration system.
+
+This is essential.
+
+Trading concepts are visual. Text alone is not sufficient.
+
+Build reusable chart components capable of displaying:
+
+* Bullish candles.
+* Bearish candles.
+* Swing highs.
+* Swing lows.
+* Equal highs and lows.
+* Market structure breaks.
+* Fair Value Gaps.
+* Order Block zones.
+* Liquidity levels.
+* Range boundaries.
+* Premium and Discount.
+* Displacement.
+* Session ranges.
+* CRT reference candles.
+
+Requirements:
+
+1. Use SVG or an appropriate existing chart visualization library.
+2. Make illustrations responsive.
+3. Support custom annotations.
+4. Use consistent chart styling.
+5. Provide labels and explanations.
+6. Use hypothetical price data.
+7. Ensure diagrams are understandable on mobile.
+8. Make diagrams reusable across lessons.
+9. Do not use screenshots copied from other educational websites.
+10. Include accessible text descriptions.
+
+Create a consistent visual language for all educational illustrations.
+
+⸻
+
+PART 7: COMPLETE GLOSSARY
+
+Build a dedicated trading terminology database.
+
+The glossary must contain all the important terms used throughout the curriculum.
+
+Examples:
+
+BOS, CHoCH, MSS, FVG, IFVG, OB, BPR, BSL, SSL, OTE, AMD, CRT, SMT, PD Array, DOL, HH, HL, LH, LL, IPDA, EQH, EQL, PDH, PDL, PWH, PWL.
+
+Each glossary entry must include:
+
+* Full term.
+* Abbreviation.
+* Simple definition.
+* Detailed explanation.
+* Category.
+* Related terminology.
+* Related educational articles.
+* Example illustration where useful.
+
+Glossary functionality
+
+* Instant search.
+* Alphabetical navigation.
+* Category filtering.
+* Related concept recommendations.
+* Clickable term definitions.
+* Dedicated pages for major concepts.
+* Mobile-friendly presentation.
+
+The glossary must be connected to the lesson content.
+
+When a trading term appears in an article for the first time, provide a contextual link to its glossary entry.
+
+⸻
+
+PART 8: INTERACTIVE EDUCATIONAL TOOLS
+
+Build a dedicated Tools section.
+
+Do not build decorative tool cards. Implement functional tools.
+
+Tool 01: Concept Explorer
+
+An interactive visual learning experience for:
+
+* Market structure.
+* Liquidity.
+* FVG anatomy.
+* Order Block anatomy.
+* Premium and Discount.
+* CRT terminology.
+
+Users should be able to explore the components of a concept and reveal explanations.
+
+Tool 02: Candle Anatomy Explorer
+
+Display hypothetical candlesticks.
+
+Allow users to inspect:
+
+* Open.
+* High.
+* Low.
+* Close.
+* Body.
+* Upper wick.
+* Lower wick.
+
+Tool 03: Market Structure Practice
+
+Show hypothetical candle sequences.
+
+Allow users to identify swing points and answer questions about basic structural terminology.
+
+Provide educational feedback.
+
+Tool 04: FVG Visualizer
+
+Allow users to explore hypothetical three-candle formations and identify the relevant candle relationships.
+
+Display explanatory annotations.
+
+Tool 05: Glossary Explorer
+
+A fast searchable terminology interface.
+
+Tool 06: Session Time Explorer
+
+Explain global market sessions and time-zone differences.
+
+Account for daylight-saving changes where relevant.
+
+Tool 07: Learning Tracker
+
+Track:
+
+* Lessons completed.
+* Module progress.
+* Quiz performance.
+* Overall learning progress.
+
+Tool 08: Knowledge Flashcards
+
+Provide randomized educational flashcards.
+
+Show the term on one side and its explanation on the other.
+
+All tools should be accessible from mobile and desktop.
+
+Use fictional or historical educational examples, never live trade recommendations.
+
+⸻
+
+PART 9: PRACTICE AND KNOWLEDGE ASSESSMENT
+
+Create a proper learning assessment system.
+
+Include:
+
+* Multiple-choice questions.
+* Concept identification exercises.
+* Terminology quizzes.
+* Candlestick anatomy questions.
+* Market structure recognition exercises.
+* Module-level assessments.
+* Final curriculum assessment.
+
+Every question must have:
+
+* Correct answer.
+* Explanation.
+* Related lesson.
+* Difficulty level.
+
+Track quiz results locally or through the existing authenticated user system.
+
+Do not turn exercises into real-money trading simulations or provide prompts to execute trades.
+
+⸻
+
+PART 10: USER LEARNING EXPERIENCE
+
+The platform should support an intuitive learning journey.
+
+User progression
+
+1. User opens Education.
+2. User selects a learning level.
+3. User starts the curriculum.
+4. User opens the first lesson.
+5. User reads and studies the illustrations.
+6. User completes the knowledge check.
+7. User marks the lesson completed.
+8. User progresses to the next lesson.
+9. User can revisit completed modules.
+
+Progress interface
+
+Display:
+
+* Overall completion percentage.
+* Completed modules.
+* Completed lessons.
+* Current lesson.
+* Quiz performance.
+* Next recommended learning topic.
+
+For visitors without accounts, use persistent browser storage.
+
+If authentication already exists, synchronize progress with the existing database.
+
+Do not force registration just to read educational material.
+
+⸻
+
+PART 11: CONTENT QUALITY AND EDITORIAL STANDARDS
+
+This section is extremely important.
+
+I do not want shallow AI-generated articles.
+
+Write original, accurate, genuinely educational material.
+
+Writing standards
+
+* Start with simple explanations.
+* Progress toward advanced terminology.
+* Use examples.
+* Explain concepts step by step.
+* Explain relationships between different concepts.
+* Avoid unnecessary jargon.
+* Avoid repetitive paragraphs.
+* Avoid generic motivational language.
+* Avoid keyword stuffing.
+* Avoid copy-paste explanations across articles.
+
+Accuracy standards
+
+Trading terminology is not always universally standardized.
+
+Distinguish between:
+
+1. Established financial-market concepts.
+2. Common price-action terminology.
+3. Interpretations within ICT/SMC methodologies.
+4. Hypotheses that have not been independently established.
+
+Do not present claims about institutional manipulation, algorithmic price delivery, guaranteed liquidity targets, or predictable imbalance fills as proven facts.
+
+Explain that these are interpretations used in particular analytical frameworks.
+
+Do not invent empirical statistics, research findings, win rates, or performance claims.
+
+Content independence
+
+Write all content independently.
+
+Do not copy articles, proprietary course materials, diagrams, screenshots, or brand assets from the reference website.
+
+Do not suggest that my platform is officially affiliated with or endorsed by The Inner Circle Trader or another third party.
+
+⸻
+
+PART 12: DESIGN SYSTEM
+
+The Education Hub must follow my existing website’s identity.
+
+Target design:
+
+Premium. Minimal. Technical. Institutional. Professional.
+
+Use:
+
+* Existing website typography.
+* Existing colors.
+* Dark visual language if consistent with the current brand.
+* Subtle purple accents if appropriate.
+* Clear spacing.
+* Strong visual hierarchy.
+* Beautiful educational cards.
+* Refined borders.
+* Consistent chart illustrations.
+* Smooth transitions.
+* Excellent reading experience.
+
+Layout inspiration
+
+Reference the organizational quality of professional documentation and educational platforms.
+
+The interface should combine:
+
+* A knowledge library.
+* A structured online curriculum.
+* A searchable documentation system.
+* An interactive educational workspace.
+
+Avoid generic AI dashboard designs.
+
+Avoid unnecessary gradients, excessive glass effects, decorative elements, and distracting animations.
+
+Prioritize content readability.
+
+⸻
+
+PART 13: CONTENT MANAGEMENT AND DATABASE
+
+Create a scalable education content architecture.
+
+Each lesson must support:
+
+* ID.
+* Slug.
+* Title.
+* Summary.
+* Full content.
+* Module ID.
+* Category.
+* Difficulty.
+* Estimated reading time.
+* Prerequisites.
+* Related lessons.
+* Glossary references.
+* Diagrams.
+* Quiz questions.
+* FAQs.
+* SEO metadata.
+* Publication status.
+* Last updated date.
+
+Technical approach
+
+Use the existing database or CMS if available.
+
+Otherwise:
+
+* Use a clean TypeScript content model.
+* Store lessons in organized Markdown or MDX files.
+* Create reusable rendering components.
+* Keep lesson data separate from presentation.
+* Make it easy to add new modules.
+* Make it easy to update existing articles.
+
+Avoid hardcoding lesson content directly into individual React components.
+
+Implement search using a suitable indexing approach.
+
+⸻
+
+PART 14: SEO AND DISCOVERABILITY
+
+Every public educational page should be search-engine friendly.
+
+Implement:
+
+* Unique page titles.
+* Meta descriptions.
+* Canonical URLs.
+* Open Graph metadata.
+* Breadcrumbs.
+* Internal linking.
+* Sitemap integration.
+* Clean URL structures.
+* Appropriate structured data where applicable.
+* Accessible heading hierarchy.
+
+Create a logical internal linking system between related educational concepts.
+
+Do not generate duplicate or thin pages merely to increase page count.
+
+⸻
+
+PART 15: RESPONSIVE DESIGN AND PERFORMANCE
+
+Ensure the Education Hub works properly on:
+
+* Desktop.
+* Laptop.
+* Tablet.
+* Mobile.
+
+Pay particular attention to:
+
+* Lesson reading experience.
+* Chart illustration sizing.
+* Mobile navigation.
+* Glossary search.
+* Quiz interactions.
+* Progress indicators.
+* Content loading.
+
+Performance requirements:
+
+* Avoid unnecessary client-side rendering.
+* Optimize images and diagrams.
+* Lazy-load nonessential visual content.
+* Avoid layout shifts.
+* Keep JavaScript bundles reasonable.
+* Use existing caching and rendering conventions.
+
+⸻
+
+PART 16: SAFETY AND EDUCATIONAL DISCLAIMER
+
+The Education Hub must be an educational resource, not a financial advisory or trading-signal service.
+
+Include an appropriate disclaimer covering:
+
+* Educational purposes only.
+* No financial advice.
+* No guaranteed results.
+* Financial markets involve risk.
+* Historical examples do not predict future outcomes.
+* Hypothetical examples may differ from real-world conditions.
+
+Keep educational exercises separate from real-money trading activity.
+
+Do not encourage inexperienced or underage visitors to participate in leveraged trading or open live trading accounts.
+
+⸻
+
+PART 17: IMPLEMENTATION PLAN
+
+Execute the project through the following phases.
+
+Phase 1: Existing Project Audit
+
+Inspect the website and establish the implementation architecture.
+
+Phase 2: Design and Routing
+
+Create the Education navigation, routes, page templates, and design system integration.
+
+Phase 3: Content Foundation
+
+Build all curriculum modules, lessons, taxonomy, glossary data, and reusable content components.
+
+Phase 4: Lesson System
+
+Implement individual lesson pages, chart illustrations, related content, FAQs, and quizzes.
+
+Phase 5: Interactive Tools
+
+Implement the concept explorer, glossary, practice system, flashcards, session explorer, and progress tracker.
+
+Phase 6: Learning Experience
+
+Connect lessons, modules, assessments, and user progress into one coherent experience.
+
+Phase 7: SEO and Optimization
+
+Implement metadata, internal links, responsive layouts, accessibility, and performance optimization.
+
+Phase 8: Final Testing
+
+Test the complete Education Hub.
+
+Check:
+
+* Every route.
+* Every navigation link.
+* Every educational card.
+* Every lesson.
+* Every glossary entry.
+* Every quiz.
+* Every tool.
+* Progress persistence.
+* Mobile responsiveness.
+* Existing website functionality.
+* Build and runtime errors.
+
+Fix issues before declaring completion.
+
+⸻
+
+PART 18: FINAL ACCEPTANCE CRITERIA
+
+The project is not complete merely because the homepage looks good.
+
+The following conditions must be satisfied:
+
+1. The main Education page is fully functional.
+2. All 12 curriculum modules have complete content.
+3. Every planned lesson has a working dedicated page.
+4. Educational content is original and meaningful.
+5. Every lesson contains appropriate diagrams.
+6. Glossary search works.
+7. Internal content links work.
+8. Quizzes provide meaningful feedback.
+9. Educational tools perform their intended functions.
+10. Learning progress is saved.
+11. Mobile and desktop experiences work.
+12. SEO metadata is implemented.
+13. No placeholder content remains.
+14. No fake statistics are displayed.
+15. No existing website functionality is broken.
+
+Final developer report
+
+After implementation, provide:
+
+* Summary of the architecture.
+* Pages and routes created.
+* Number of completed modules.
+* Number of completed lessons.
+* Glossary terminology count.
+* Tools implemented.
+* Components created.
+* Database changes.
+* Tests performed.
+* Remaining limitations, if any.
+
+Be honest about anything not completed.
+
+⸻
+
+THE FINAL PRODUCT VISION
+
+I want my website to have its own complete trading knowledge ecosystem.
+
+A visitor should be able to enter with zero knowledge, understand the terminology, study individual concepts, follow a structured curriculum, explore original chart illustrations, complete quizzes, use educational tools, and track their learning progress.
+
+The experience should feel like a serious educational product rather than a collection of blog posts.
+
+One platform. One connected curriculum. A complete knowledge library. Original visual explanations. Functional learning tools.
+
+Start by inspecting my existing codebase.
+
+Then implement the complete Education Hub directly into the existing project.
+
+Do not stop at a design mockup, homepage, wireframe, or implementation plan.
+
+Build the actual product.
